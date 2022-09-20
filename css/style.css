@@ -216,6 +216,12 @@ body {
 .specifics-wrapper {
     display: flex;
 }
+.specifics-wrapper-item {
+    width: calc(100%-90px)/4;
+}
+.specifics-wrapper-item + .specifics-wrapper-item {
+    margin-left: 30px;
+}
 .specifics-wrapper .title {
     margin-bottom: 10px;
 
