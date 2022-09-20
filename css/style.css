@@ -14,7 +14,7 @@ h2,
 h3,
 p {
     padding: 0;
-        margin: 0;
+    margin: 0;
 }
 .container {
     width: 1170px;
@@ -191,6 +191,9 @@ body {
 }
 
 /* section team */
+.team-bcg {
+    background-color: var(--btn-bcg-color);
+}
 .team-wrapper-item img {
     margin-bottom: 30px;
 }
@@ -263,7 +266,7 @@ body {
 }
 .examples-wrapper-item .img {
     margin-bottom: 20px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 .examples-wrapper .prjct{
     font-weight: 700;
@@ -272,7 +275,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--secondary-color);
     margin-bottom: 4px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .examples-wrapper .spcfn{
@@ -280,5 +283,5 @@ body {
     font-size: 16px;
     line-height: 1.87;
     color: var(--primary-color);
-        outline: 1px solid green;
+        /* outline: 1px solid green; */
 }
